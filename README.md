@@ -63,7 +63,7 @@ python hash_checker.py
 
 ## 🎮 User Guide
 
-Execute `calculator.exe` and behold a robust calculator utility that doesn't just perform arithmetic operations. It's a working model of polymorphic code transformation. Feel the power of real-world cybersecurity concepts at your fingertips.
+Execute `calculator.exe` and behold a robust calculator utility that doesn't just perform arithmetic operations. It's a working model of polymorphic code transformation. Feel the power of real-world cybersecurity concepts at your fingertips.(make sure to change the directory to you own)
 
 ---
 
