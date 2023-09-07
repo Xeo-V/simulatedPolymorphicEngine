@@ -76,4 +76,4 @@ int PolymorphicEngine::codeSubstitution(int a, int b) {
 void PolymorphicEngine::junkCodeInsertion() {
     int junk = rand() % 100;
     junk *= 0;
-}
+} 
