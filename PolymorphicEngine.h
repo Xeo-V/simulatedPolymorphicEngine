@@ -17,3 +17,4 @@ public:
     static int codeSubstitution(int a, int b);
     static void junkCodeInsertion();
 };
+ 
