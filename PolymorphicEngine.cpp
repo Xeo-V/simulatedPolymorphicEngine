@@ -6,23 +6,23 @@ void PolymorphicEngine::init() {
 
 int PolymorphicEngine::add(int a, int b) {
     return a + b;
-}
-
+} 
+ 
 int PolymorphicEngine::subtract(int a, int b) {
     return a - b;
-} 
+}  
 
 int PolymorphicEngine::multiply(int a, int b) {
     return a * b;
-}
+} 
 
 double PolymorphicEngine::divide(int a, int b) {
     if (b != 0) {
         return static_cast<double>(a) / b;
-    }
+    } 
     std::cerr << "Division by zero is not allowed." << std::endl;
     return 0;
-}
+} 
 
 int PolymorphicEngine::reorderInstructions(int a, int b) {
     int random_number = rand() % 2;  // Generate a random number
@@ -30,18 +30,18 @@ int PolymorphicEngine::reorderInstructions(int a, int b) {
     if (random_number == 0) {
         sum += a;
         sum += b;
-    } else {
+    } else { 
         sum += b;
         sum += a;
-    }
+    } 
     return sum;
-}
-
+}   
+ 
 int PolymorphicEngine::renameRegisters(int a, int b) {
     int random_number = rand() % 2;  // Generate a random number
-    int result;
-    if (random_number == 0) {
-        int var_a = a;
+    int result; 
+    if (random_number == 0) { 
+        int var_a = a; 
         int var_b = b;
         result = var_a + var_b;
     } else {
