@@ -43,28 +43,28 @@ int main() {
             diff = PolymorphicEngine::subtract(a, b);
             product = PolymorphicEngine::multiply(a, b);
             quotient = PolymorphicEngine::divide(a, b);
-            break;
-        case 5:
+            break; 
+        case 5: 
             sum = PolymorphicEngine::codeSubstitution(a, b);
             diff = PolymorphicEngine::subtract(a, b);
             product = PolymorphicEngine::multiply(a, b);
             quotient = PolymorphicEngine::divide(a, b);
-            break;
-        case 6:
+            break; 
+        case 6: 
             PolymorphicEngine::junkCodeInsertion();
             sum = PolymorphicEngine::add(a, b);
             diff = PolymorphicEngine::subtract(a, b);
             product = PolymorphicEngine::multiply(a, b);
             quotient = PolymorphicEngine::divide(a, b);
-            break;
-        case 7:
+            break; 
+        case 7: 
             // No transformation
             sum = PolymorphicEngine::add(a, b);
             diff = PolymorphicEngine::subtract(a, b);
             product = PolymorphicEngine::multiply(a, b);
             quotient = PolymorphicEngine::divide(a, b);
             break;
-    }
+    } 
 
     std::cout << "The sum is: " << sum << std::endl;
     std::cout << "The difference is: " << diff << std::endl;
