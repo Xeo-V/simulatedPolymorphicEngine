@@ -1,14 +1,14 @@
 #pragma once
-#include <iostream>
-#include <ctime>
-#include <cstdlib>
+#include <iostream> 
+#include <ctime> 
+#include <cstdlib> 
 
-class PolymorphicEngine {
-public:
-    static void init();
-    static int add(int a, int b);
-    static int subtract(int a, int b);
-    static int multiply(int a, int b);
+class PolymorphicEngine { 
+public: 
+    static void init(); 
+    static int add(int a, int b); 
+    static int subtract(int a, int b); 
+    static int multiply(int a, int b); 
     static double divide(int a, int b);
     static int reorderInstructions(int a, int b);
     static int renameRegisters(int a, int b);
